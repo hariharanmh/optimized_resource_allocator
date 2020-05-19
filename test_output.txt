@@ -1,0 +1,31 @@
+
+
+Test Case 0
+	Input:
+		Capacity of 1150 units for 1 Hour
+	Output:
+		{"Output": [{"region": "New York", "total_cost": "$10150", "machines": ["(8XLarge, 7)", "(XLarge, 1)", "(Large, 1)"]}, {"region": "India", "total_cost": "$9520", "machines": ["(8XLarge, 7)", "(Large, 3)"]}, {"region": "China", "total_cost": "$8570", "machines": ["(8XLarge, 7)", "(XLarge, 1)", "(Large, 1)"]}]}
+
+Test Case 1
+	Input:
+		Capacity of 230 units for 5 Hour
+	Output:
+		{"Output": [{"region": "New York", "total_cost": "$11000", "machines": ["(8XLarge, 1)", "(2XLarge, 1)", "(XLarge, 1)", "(Large, 1)"]}, {"region": "India", "total_cost": "$10665", "machines": ["(8XLarge, 1)", "(2XLarge, 1)", "(Large, 3)"]}, {"region": "China", "total_cost": "$9450", "machines": ["(8XLarge, 1)", "(XLarge, 3)", "(Large, 1)"]}]}
+
+Test Case 2
+	Input:
+		Capacity of 100 units for 24 Hour
+	Output:
+		{"Output": [{"region": "New York", "total_cost": "$24096", "machines": ["(4XLarge, 1)", "(XLarge, 1)"]}, {"region": "India", "total_cost": "$26544", "machines": ["(2XLarge, 2)", "(Large, 2)"]}, {"region": "China", "total_cost": "$20880", "machines": ["(4XLarge, 1)", "(XLarge, 1)"]}]}
+
+Test Case 3
+	Input:
+		Capacity of 1100 units for 12 Hour
+	Output:
+		{"Output": [{"region": "New York", "total_cost": "$118248", "machines": ["(8XLarge, 6)", "(4XLarge, 1)", "(2XLarge, 1)", "(XLarge, 1)"]}, {"region": "India", "total_cost": "$112596", "machines": ["(8XLarge, 6)", "(4XLarge, 1)", "(2XLarge, 1)", "(Large, 2)"]}, {"region": "China", "total_cost": "$100200", "machines": ["(8XLarge, 6)", "(4XLarge, 1)", "(XLarge, 3)"]}]}
+
+Test Case 4
+	Input:
+		Capacity of 0 units for 0 Hour
+	Output:
+		{"Output": "No data found"}
